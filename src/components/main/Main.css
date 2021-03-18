@@ -9,14 +9,6 @@
   -webkit-font-smoothing: antialiased;
   background: whitesmoke;
 }
-h2 {
-  text-align: center;
-  font-size: 180%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: black;
-  padding: 1% 0;
-}
 
 /* Table Styles */
 
@@ -32,7 +24,7 @@ h2 {
   border: none;
   border-collapse: collapse;
   width: 100%;
-  max-width: 100%;
+
   white-space: nowrap;
   background-color: white;
 }
