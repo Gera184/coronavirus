@@ -1,6 +1,18 @@
-.map-icon-col {
-  text-align: start;
+.navbar {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: black;
+  background-image: url("https://www.uni-potsdam.de/typo3temp/assets/_processed_/2/3/csm_csm_teaser_corona_presse_01_b93b6a657a.jpg");
+  background-size: 100% 100%;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 whitesmoke;
+  font-weight: bold;
 }
-.home-icon-col {
-  text-align: end;
+
+.navbar:hover {
+  color: whitesmoke;
+}
+
+.navbar :active {
+  transform: translateY(4px);
 }

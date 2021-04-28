@@ -6,19 +6,14 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <div>
-      <Row>
-        <Col className="map-icon-col">
-          <a href="/map" className="map-icon">
-            <FaMapMarkedAlt style={{ fontSize: "250%" }} />
-          </a>
-        </Col>
-        <Col className="home-icon-col">
-          <a href="/home" className="home-icon">
-            <AiTwotoneHome style={{ fontSize: "250%" }} />
-          </a>
-        </Col>
-      </Row>
+    <div class="col text-center align-self-center">
+      <a href="/home" className="navbar badge">
+        Home
+      </a>
+
+      <a href="/map" className="navbar badge">
+        Map
+      </a>
     </div>
   );
 };

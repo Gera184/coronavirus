@@ -12,8 +12,6 @@ import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 import uuid from "react-uuid";
 
-
-
 const options = {
   method: "GET",
   url: "https://covid-19-statistics.p.rapidapi.com/reports",
@@ -107,7 +105,7 @@ export default function CoronaMap() {
   return (
     <div>
       <WrappedMap
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCirpZxwCE6TZ74bxOHXcXFianoChEmfTg`}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBq-4BnrIPGK5UdiVqF7kH9lOH34oq6BPA`}
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `500px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
